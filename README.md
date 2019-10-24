@@ -12,7 +12,7 @@ Control + Shift + Right Click
 
 If the cursor goes to the center of the "Start" button, you are ready to use the bot!
 Otherwise, you'll need to edit the file and input your screen dimensions.
-Right click on the awk file to edit it (it should open in Notepad or the equivalent).
+Right click on the .ahk file to edit it (it should open in Notepad or the equivalent).
 Scroll all the way to the bottom of the file until you see:
 
 ;\*\*CHANGE THESE NUMBER TO MATCH YOUR SCREEN RESOLUTION\*\*
