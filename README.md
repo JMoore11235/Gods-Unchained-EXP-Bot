@@ -4,8 +4,8 @@ Run this to get free exp while you are away from your computer.
 Note: This bot gains exp through constantly losing games in ranked constructed,
 so DO NOT use this on your account if you care about rank at all.
 
-To work, install Auto Hotkey from https://www.autohotkey.com/
-Then download this file, and run it.
+To work, install Auto Hotkey from https://www.autohotkey.com/ . Then download this file, and run it.
+
 Launch Immutable in fullscreen mode, and input:
 
 Control + Shift + Right Click
