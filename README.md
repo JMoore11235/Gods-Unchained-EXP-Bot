@@ -31,6 +31,7 @@ If this puts your cursor in the middle of the start, then scroll all the way bac
 and use those values in the identical section near the beginning.
 
 If this doesn't work, then please contact me because I'll need to figure out how to make it work for you (or you can try to do it yourself).
+Note: As of now, it appears to only work on displays with a 16:9 aspect ratio.
 
 
 Once you have made the appropriate changes (if any), you are ready to start using the bot.
