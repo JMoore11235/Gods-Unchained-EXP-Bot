@@ -15,9 +15,12 @@ Otherwise, you'll need to edit the file and input your screen dimensions.
 Right click on the awk file to edit it (it should open in Notepad or the equivalent).
 Scroll all the way to the bottom of the file until you see:
 
-;**CHANGE THESE NUMBER TO MATCH YOUR SCREEN RESOLUTION** 
+;\*\*CHANGE THESE NUMBER TO MATCH YOUR SCREEN RESOLUTION\*\*
+
 xDim := 2560
+
 yDim := 1440
+
 ;\*\*DO NOT EDIT BELOW THIS LINE UNLESS YOU KNOW WHAT YOU ARE DOING\*\* 
 
 surrounded by lots of empty space.
