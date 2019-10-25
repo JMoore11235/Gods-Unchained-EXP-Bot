@@ -35,6 +35,10 @@ Note: As of now, it appears to only work on displays with a 16:9 aspect ratio.
 
 
 Once you have made the appropriate changes (if any), you are ready to start using the bot.
+
+Make sure to use a War deck to maximize functionality (uses the slayer god power and can attack enemy gods.
+This funcitonality is very useful against other bots).
+
 Make sure that your immutable client is in full screen, and that whenever the game itself launches, that it is also full screen.
 Then just input: Control + Shift + Left Click, and you should be good to go!
 
