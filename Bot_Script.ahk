@@ -62,7 +62,7 @@ Loop
 	Sleep, 30000 ; Wait 30 seconds for game to load in.
 
 
-	MouseMove, 937*xMult, 528*yMult 
+	MouseMove, 1482*xMult, 528*yMult 
 	Send, {LButton}; Select god power
 
 	Sleep, 500 ; Make sure cursor stays on god power long enough to register click
@@ -70,6 +70,10 @@ Loop
 	MouseMove, 1030*xMult, 932*yMult
 	Send, {LButton}; Confirm god power
 
+	Sleep, 500
+
+	MouseMove, 1030*xMult, 450*yMult ; Unpause the game (No idea why this happens, this is just a temp fix).
+	Send, {LButton}
 
 	Sleep, 5000 ; Sleep for 5 seconds to load mulligan and let opponent choose GP
 
@@ -86,16 +90,16 @@ Loop
 
 	WinGet, id, list,,, ProgramManager
 
-	while(id != setId) {
+	;counter := 0
 
-		; End turn for 5 seconds
+	while(id != setId) {
+		
+
+		; Try to End turn
 
 		MouseMove, 1734*xMult, 530*yMult
-		Loop, 5 
-		{
-			Send, {LButton}
-			Sleep, 1000
-		}
+		Send, {LButton}
+		Sleep, 1000
 
 
 		; Try to close window if game is done
@@ -104,15 +108,33 @@ Loop
 
 		MouseMove 1019*xMult, 1038*yMult
 		Send, {LButton}
-		Sleep, 500
+		Sleep, 250
 	
 		; Click ok on error message if game has ended
 	
 		MouseMove 1019*xMult, 618*yMult
 		Send, {LButton}
+		Sleep, 250
+
+
+
+		; Use God power and go face (Assuming use of Slayer)
+		MouseMove 1150*xMult, 800*yMult
+		Send, {LButton}
 		Sleep, 1000
 
 
+		MouseMove, 885*xMult, 800*yMult
+		Send {Click, down}
+		Sleep, 500
+		MouseMove, 1025*xMult, 115*yMult
+		Sleep, 500
+		Send {Click, up}
+
+
+		Sleep, 250
+
+		;counter++
 
 		WinGet, id, list,,, ProgramManager
 	}
@@ -181,6 +203,9 @@ CoordMode, Mouse, Screen
 MouseMove, 1100*xMult, 680*yMult
 
 return
+
+
+
 
 Esc::
 ExitApp
