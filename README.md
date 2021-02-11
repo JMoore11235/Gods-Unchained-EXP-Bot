@@ -1,5 +1,9 @@
 # Gods-Unchained-EXP-Bot
 
+**This hasn't been updated in over a year, and will not be updated in the future (Gods Unchained has made botting against the rules). This will not work anymore since there have several visual and funtional updates to Gods Unchained, but serves as part of my portfolio now.
+
+
+
 Run this to get free exp while you are away from your computer.
 Note: This bot gains exp through constantly losing games in ranked constructed,
 so DO NOT use this on your account if you care about rank at all.
