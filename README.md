@@ -1,6 +1,6 @@
 # Gods-Unchained-EXP-Bot
 
-**This hasn't been updated in over a year, and will not be updated in the future (Gods Unchained has made botting against the rules). This will not work anymore since there have several visual and funtional updates to Gods Unchained, but serves as part of my portfolio now.
+**This hasn't been updated in over a year, and will not be updated in the future (Gods Unchained has made botting against the rules). This will not work anymore since there have several visual and funtional updates to Gods Unchained, but serves as part of my portfolio now.**
 
 
 
